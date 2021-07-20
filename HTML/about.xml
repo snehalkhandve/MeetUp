@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="about.xsl"?>
+
+		<aboutus>
+			<about>
+				<feature>Global Meeting Room search</feature>
+				<description>Meeting Room search allows users to compare room prices in just a few clicks from more than 400 booking sites for 1.8 million+ hotels in over 190 countries. With 1.4 billion visits annually to our site, professionals regularly use the room comparison to compare deals in the same city. Get information for meetings arranged uptill now in cities like Mumbai or Bengaluru and you can find the right room on our site quickly and easily. Delhi and its surrounding area are great for professionals with the numerous rooms available.</description>
+			</about>
+			<about>
+				<feature>Room reviews help you find your ideal room</feature>
+				<description>Over 175 million aggregated room ratings and more than 19 million images allow you to find out more about where you're planning to book. To get an extended overview of a room property, our site shows the average rating and extensive reviews from other booking sites, e.g. Justrooms.com, Expedia, Agoda, leading meeting rooms, etc. our site makes it easy for you to find information about your meeting in Dubai, including the ideal room for you.</description>
+			</about>
+			<about>
+				<feature>How to book</feature>
+				<description>Our website is a room search with an extensive price comparison facility for you. The prices shown come from numerous owners. This means that while users decide on our site which room best suits their needs, the booking process is completed when you register to our site and confirm the room you have chosen. By talking to the owner you then have to do the further registration process</description>
+			</about>
+		</aboutus>

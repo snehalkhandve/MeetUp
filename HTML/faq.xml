@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="faq.xsl"?>
+
+		<faqlist>
+			<faq>
+				<q>How do I cancel my booking?</q>
+				<a>Cancellation will be allowed 24 hours prior to meeting start time. Go to Bookings->Cancel a booking->Choose the booking you wish to cancel.</a>
+			</faq>
+			<faq>
+				<q>Will I get a refund?</q>
+				<a>View our refund policy here: </a>
+			</faq>
+		</faqlist>

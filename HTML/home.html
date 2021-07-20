@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<title>Home</title>
+	<head>
+		<link rel="stylesheet" type="text/css" href="home.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous">
+		</script>
+	</head>
+	<body onload="counter_fn()">
+      		<p>The number of visitors is : <span id="cntr"></span></p>
+  <script>
+  
+  var count = localStorage.getItem('on_load_counter');
+
+  if (count === null) {
+    count = 0;
+  }
+  count++;
+
+  localStorage.setItem("on_load_counter", count);
+  function counter_fn() {
+      count = count+1;
+      document.getElementById("cntr").innerHTML = count; 
+  }
+  //window.onload = counter_fn; 
+</script>
+    		 
+    		 
+		<h4>MeetUp: A Meeting room booking application</h4>
+		<header>
+			<div class="icon-bar">
+			  <a class="active" href="home.html">Home</a> 
+			  <a class="active" href="faq.xml">FAQs</a>
+			  <a class="active" href="aboutus_jugaad.html">AboutUs</a>
+			  <a class="active" href="login.php" style="float: right;">Login</a> 
+			  <a class="active" href="signup.html" style="float: right;">SignUp</a>
+			</div>	
+		</header>	
+		<body>
+			<div class="container">
+			  <img src="bgimage.jpg" alt="sample image of room" style="width:100%;">
+			  <div class="text-block">
+			    <h4>Features:</h4>
+			    <ul>
+			   <li> Over 175 million aggregated room ratings and more than 19 million images allow you to find out more about where you're planning to book. </li>
+			   <li>To get an extended overview of a room property, our site shows the average rating and extensive reviews from other booking sites, e.g. Justrooms.com, Expedia, Agoda, leading meeting rooms, etc.</li>
+			    <li>Our site makes it easy for you to find information about your meeting in Dubai, including the ideal room for you.</li>
+			    <li>Our site allows you to compare prices of all the available rooms for meeting in your desired location and hence obtain room at least cost</li>
+			</ul>
+			  </div>
+			</div>
+		</body>
+		
+	<footer  style="text-align: center; ">
+	Copyright &#9400; 2020 MeetUp
+</footer>
+</html>
